@@ -17,4 +17,4 @@ Run the project with `cargo run`
 
 
 [Big Techday]: https://bigtechday.com
-[slides]: BevyBtd24.pdf
+[slides]: slides.pdf
