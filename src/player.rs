@@ -17,7 +17,7 @@ fn spawn_camera(mut commands: Commands) {
 
 fn spawn_player(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands.spawn(SpriteBundle {
-        texture: asset_server.load("female_adventurer.png"),
+        texture: asset_server.load("adventurer.png"),
         ..default()
     });
 }
@@ -63,7 +63,7 @@ fn _spawn_player_sheet(
 
     commands.spawn((
         SpriteBundle {
-            texture: asset_server.load("female_adventurer_sheet.png"),
+            texture: asset_server.load("adventurer_sheet.png"),
             ..default()
         },
         TextureAtlas::from(layout),
