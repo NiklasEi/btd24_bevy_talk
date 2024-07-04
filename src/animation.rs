@@ -4,7 +4,7 @@ pub struct SpriteAnimationPlugin;
 
 impl Plugin for SpriteAnimationPlugin {
     fn build(&self, app: &mut App) {
-        app.add_systems(PostUpdate, animate_sprite);
+        app.add_systems(Update, animate_sprite);
     }
 }
 
