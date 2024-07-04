@@ -1,6 +1,5 @@
 mod animation;
 mod audio;
-mod debug_info;
 mod player;
 
 use bevy::prelude::*;

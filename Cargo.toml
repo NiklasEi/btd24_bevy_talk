@@ -10,5 +10,4 @@ opt-level = 1
 opt-level = 3
 
 [dependencies]
-bevy = { version = "0.13.0", features = ["dynamic_linking"] }
-iyes_perf_ui = "0.2.3"
+bevy = { version = "0.14.0-rc.4", features = ["dynamic_linking"] }

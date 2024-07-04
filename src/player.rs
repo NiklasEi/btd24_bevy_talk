@@ -54,7 +54,7 @@ fn _spawn_player_sheet(
     mut layouts: ResMut<Assets<TextureAtlasLayout>>,
 ) {
     let layout = layouts.add(TextureAtlasLayout::from_grid(
-        Vec2::new(96., 99.),
+        UVec2::new(96, 99),
         8,
         1,
         None,
